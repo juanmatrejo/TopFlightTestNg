@@ -7,6 +7,7 @@ import { SumEvensOddsComponent } from './Execises/sum-evens-odds/sum-evens-odds.
 import { ReversedValueComponent } from './Execises/reversed-value/reversed-value.component';
 import { CenteredArrayComponent } from './Execises/centered-array/centered-array.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { From0to20Component } from './Execises/from0to20/from0to20.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     SumEvensOddsComponent,
     ReversedValueComponent,
     CenteredArrayComponent,
-    NavbarComponent
+    NavbarComponent,
+    From0to20Component
   ],
   imports: [
     BrowserModule,

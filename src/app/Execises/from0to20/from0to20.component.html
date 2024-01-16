@@ -1,0 +1,16 @@
+<div class="row text-center mt-5">
+    <h1>My Value: {{value}}</h1>
+</div>
+<div class="row mt-5">
+    <div class="col-md-4 d-grid gap-2">
+        <button class="btn btn-success" type="button" [disabled]="!incrementActive"
+            (click)="increment()">Increment</button>
+    </div>
+    <div class="col-md-4 d-grid gap-2">
+        <button class="btn btn-danger" type="button" [disabled]="!decrementActive"
+            (click)="decrement()">Decrement</button>
+    </div>
+    <div class="col-md-4 d-grid gap-2">
+        <button class="btn btn-secondary" type="button" [disabled]="!resetActive" (click)="reset()">Reset</button>
+    </div>
+</div>
