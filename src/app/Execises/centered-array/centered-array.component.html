@@ -1,0 +1,12 @@
+<h1>Centered Array</h1>
+
+<div class="row" *ngFor="let list of centeredArray; index as idx">
+    <ul>
+        [
+        <li class="listArray" *ngFor="let item of list">
+            {{item}},
+        </li>
+        ]
+    </ul>
+    <h5>Result => {{result[idx]}}</h5>
+</div>
